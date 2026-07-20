@@ -1,0 +1,5 @@
+다른 프로젝트에서 쓰는 법 ( 게시판 텍스트 에디터 )
+
+1. 이 폴더의 RichEditor.jsx · RichEditor.module.css 두 파일을 대상 프로젝트에 복사
+2. npm install react-quill-new quill dompurify
+3. README의 CSS 변수(--color-primary 등) 정의 후 <RichEditor value onChange ... /> 사용
